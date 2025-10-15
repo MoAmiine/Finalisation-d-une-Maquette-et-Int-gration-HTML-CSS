@@ -49,6 +49,9 @@ header{
     color: var(--text-primary);
     cursor: pointer;
 }
+.nav-links a{
+    color: #ffffff;
+}
     footer{
     position: sticky;
     background: linear-gradient( to bottom, var(--dark-bg), var(--text-secondary));
@@ -58,6 +61,7 @@ header{
     display: flex;
     justify-content: space-around;
     width: 100%;
+    position: sticky;
     
 }
 .logo-footer{
@@ -89,25 +93,26 @@ header{
     color: var(--text-primary);
 }
 .title{   
-    font-size: 60px;
-    background: linear-gradient(90deg, white 0%, #1c60d5 100%);
+    font-size: 60px;    
+    background: linear-gradient(90deg, white 0%, #00bbff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 0 0 8px #34b4e3;
-
 }
 .Commencer{
     color: #ffffff;
-    background: linear-gradient(90deg, #00bbff, #1c60d5);
+    background: linear-gradient(60deg, #00bbff, #1c60d5);
     width: 16rem;
     border-color: transparent;
+    border-width: 0;
     height: 4rem;
     border-radius: 20px;
     font-size: larger;
     font-weight: bold;  
     cursor: pointer;
-    box-shadow: 0 0 15px #34b4e3;
+    box-shadow: 0 0 10px #34b4e3;
+    margin-right: 20px;
+    text-decoration: none;
 }
 .Commencer:hover{
     background: #00bbff;
@@ -127,4 +132,20 @@ header{
 .savoir:hover{
     background: #00bbff;
     color: #000000;
+    box-shadow: 0 0 10px #00bbff;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.recherche{
+    display: flex;
+    justify-content: center;
+    margin: 50px
+}
+.recherche-title{
+    color: #ffffff;
+    font-size: 40px;
+    
+}
+
