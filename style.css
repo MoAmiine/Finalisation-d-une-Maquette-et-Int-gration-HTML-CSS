@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+:root {
+    --primary-color: #00bbff;
+    --secondary-color: #5b056c;
+    --dark-bg: #0A0E27;
+    --card-bg: #151932;
+    --text-primary: #ffffff;
+    --text-secondary: #000000;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(67deg,  #09263f, #34072f);
+}
+header{
+    position: sticky;
+        top: 0;
+        width: 100%;
+        background: var(--dark-bg);
+        backdrop-filter: blur(10px);
+        z-index: 1000;
+        border-bottom: 1px solid rgba(0, 255, 136, 0.1);
+        }
+ nav {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold; 
+    color: white;   
+}
+.gg{
+    color: #00bbff;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+    footer{
+    position: sticky;
+    background: linear-gradient( to bottom, var(--dark-bg), var(--text-secondary));
+    padding: 1rem 2rem;
+    margin-top:20rem;
+    border-top: 1px solid var(--card-bg);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.logo-footer{
+    font-size: 20px;
+    font-weight: bold; 
+    color: white;  
+}
+.footer-desc{
+    font-size: 12px;
+    width: 15rem;
+
+}.footer-title{
+    font-weight: bold;
+    line-height: 40px;
+    color: var(--text-primary);
+
+}
+.footer-text{
+    font-weight: normal;
+    font-size: smaller;
+    color: var(--text-primary);
+}
+.Acceuil{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--text-primary);
+}
+.title{   
+    font-size: 60px;
+    background: linear-gradient(90deg, white 0%, #1c60d5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 8px #34b4e3;
+
+}
+.Commencer{
+    color: #ffffff;
+    background: linear-gradient(90deg, #00bbff, #1c60d5);
+    width: 16rem;
+    border-color: transparent;
+    height: 4rem;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;  
+    cursor: pointer;
+    box-shadow: 0 0 15px #34b4e3;
+}
+.Commencer:hover{
+    background: #00bbff;
+}
+.savoir{
+    color: #00bbff;
+    background: transparent;
+    width: 16rem;
+    border-color: #00bbff;
+    height: 4rem;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.savoir:hover{
+    background: #00bbff;
+    color: #000000;
+}
