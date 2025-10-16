@@ -18,13 +18,16 @@ body{
     background: linear-gradient(67deg,  #09263f, #34072f);
 }
 header{
-    position: sticky;
+
         top: 0;
         width: 100%;
-        background: var(--dark-bg);
-        backdrop-filter: blur(10px);
+        background: #0a0e2796;
+        backdrop-filter: blur(15px);
         z-index: 1000;
         border-bottom: 1px solid rgba(0, 255, 136, 0.1);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: sticky;
         }
  nav {
     max-width: 1400px;
@@ -48,6 +51,7 @@ header{
     gap: 2.5rem;
     color: var(--text-primary);
     cursor: pointer;
+    margin-right: -25rem;
 }
 .nav-links a{
     color: #ffffff;
@@ -239,4 +243,87 @@ p{
 .csm-cards{
     display: flex;
     justify-content: space-around;
+}
+.joueurs{
+    text-align: center;
+    margin: 50px;
+}
+
+.joueurs-card{
+    border: solid;
+    width: 25rem;
+    height: 30rem;
+    border-width: 1px;
+    border-color: #00bbff2f;
+    background-color: #0a0e277c;
+    border-radius: 15px;
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+    line-height: 2rem;
+    margin: 2rem;
+    
+}
+.joueurs-title{
+    color: #ffffff;
+    margin: 15px;
+    font-size: larger;
+}
+
+.joueurs-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.joueurs-card-title{
+    color: #ffffff;
+    margin: 15px;
+    font-size: larger;
+}
+.joueurs-icone{
+    border-radius: 100%;
+    width: 100px;
+}
+.joueurs-game{
+    border: solid red 1px;
+    color: red;
+    width: 10rem;
+    border-radius: 15px;
+    background: rgba(255, 0, 0, 0.201);
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+.role-rank{
+    display: flex;
+    gap: 24px ;
+    justify-content: center;
+    color: #00bbff;
+    font-weight: bold;
+}
+.login{
+    color: var(--text-secondary);
+    background: linear-gradient(60deg, #00bbff, #1c60d5);
+    width: 8rem;
+    border-color: transparent;
+    border-width: 0;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;  
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0 0 15px #34b4e3;
+    
+}
+.button-profil{
+    background: linear-gradient(60deg, #00bbff, #1c60d5);
+    color: var(--text-secondary);
+    border: transparent 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 0 10px #00bbff;
+    margin-top: 2rem;
+    width: 20rem;
+    height: 40px;
+    border-radius: 20px;
 }
