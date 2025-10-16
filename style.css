@@ -327,3 +327,18 @@ p{
     height: 40px;
     border-radius: 20px;
 }
+.communaute{
+    text-align: center;
+}
+.community{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: bold;
+    border: solid;
+    width: 20rem;
+    height: 3rem;
+}
+.community-span{
+    font-size: 24px;
+}
