@@ -91,6 +91,7 @@ header{
     flex-direction: column;
     text-align: center;
     color: var(--text-primary);
+    margin-bottom: 20rem;
 }
 .title{   
     font-size: 60px;    
@@ -110,7 +111,7 @@ header{
     font-size: larger;
     font-weight: bold;  
     cursor: pointer;
-    box-shadow: 0 0 10px #34b4e3;
+    box-shadow: 0 0 15px #34b4e3;
     margin-right: 20px;
     text-decoration: none;
 }
@@ -132,20 +133,110 @@ header{
 .savoir:hover{
     background: #00bbff;
     color: #000000;
-    box-shadow: 0 0 10px #00bbff;
+    box-shadow: 0 0 15px #00bbff;
 }
 a{
     text-decoration: none;
     color: white;
 }
-.recherche{
-    display: flex;
+#recherche{
+    padding: 5rem;
     justify-content: center;
-    margin: 50px
+    margin: 50px;
+    background: var(--dark-bg);
+    height: 25rem;
+    border-radius: 20px;
+    
 }
 .recherche-title{
     color: #ffffff;
     font-size: 40px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.recherche-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     
 }
+.recherche-label{
+    font-size: 1rem;
+    color: #00bbff;
+    display: flex;
+    flex-direction: column;
+}
+.recherche-select{
+    width: 17rem;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+    background: var(--dark-bg);
+    border-color: #00bbff;
+    border-width: 1px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 1rem;
+    
+}
+.button-recherche{
+    color: var(--text-secondary);
+    background: linear-gradient(60deg, #00bbff, #1c60d5);
+    width: 17rem;
+    border-color: transparent;
+    border-width: 0;
+    height: 40px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;  
+    cursor: pointer;
+    box-shadow: 0 0 15px #34b4e3;
+    margin-top: 25px;
+    
+}
+p{
+    color: rgb(178, 178, 178);
+}
+.csm{
+    text-align: center;
+    margin: 50px;
+}
+.csm-title{
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px;
+}
 
+.csm-card{
+    border: solid;
+    width: 25rem;
+    height: 20rem;
+    border-width: 1px;
+    border-color: #00bbff2f;
+    background-color: #0a0e277c;
+    border-radius: 15px;
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+    line-height: 2rem;
+}
+.csm-card-title{
+    color: #ffffff;
+    margin: 15px;
+    font-size: larger;
+}
+.small-line{
+    width: 8rem;
+    height: 8px;
+    margin-left: 45%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    background: linear-gradient(90deg, #00bbff, #f701d2);
+    border: none;
+    border-radius: 3px;
+}
+.csm-cards{
+    display: flex;
+    justify-content: space-around;
+}
