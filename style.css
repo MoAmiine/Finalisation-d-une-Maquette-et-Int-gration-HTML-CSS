@@ -443,6 +443,15 @@ p{
 .annonce-input{
     text-align: center;
     margin-top: 5rem;
+    border: solid 1px transparent;
+    width: 55rem;
+    height: 25rem;
+    margin-left: 20rem;
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: #0a0e2770;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px #00bbff;
 }
 .annonce{
     text-align: center;
@@ -506,4 +515,14 @@ p{
     box-shadow: 0 0 15px #34b4e3;
     margin-right: 20px;
     text-decoration: none;   
+}
+#annonce-shortcut{
+    margin: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: #00bbff;
+    cursor: pointer;
+}
+#annonce-shortcut:hover{
+    text-decoration: underline;
 }
