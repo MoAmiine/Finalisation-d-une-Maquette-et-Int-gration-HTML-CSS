@@ -17,6 +17,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: linear-gradient(67deg,  #09263f, #34072f);
 }
+.body{
+    background-image: url("cypher.png");
+}
+
 header{
 
         top: 0;
@@ -55,6 +59,16 @@ header{
 }
 .nav-links a{
     color: #ffffff;
+}
+.titlediv{
+    border: solid 1px transparent;
+    width: 60rem;
+    height: 30rem;
+    padding: 5rem;
+    border-radius: 20px;
+    background: #0a0e274c;
+    backdrop-filter: blur(20px);
+    margin-left: 16rem;
 }
     footer{
     position: sticky;
@@ -106,7 +120,7 @@ header{
 }
 .Commencer{
     color: #ffffff;
-    background: linear-gradient(60deg, #00bbff, #1c60d5);
+    background: linear-gradient(90deg, #00bbff, #1c60d5);
     width: 16rem;
     border-color: transparent;
     border-width: 0;
@@ -283,6 +297,8 @@ p{
 .joueurs-icone{
     border-radius: 100%;
     width: 100px;
+    border: solid #00bbff 2px;
+    box-shadow: 0 0 10px #00bbff;
 }
 .joueurs-game{
     border: solid red 1px;
@@ -327,18 +343,167 @@ p{
     height: 40px;
     border-radius: 20px;
 }
+.communaute-cards{
+    display: flex;
+    justify-content: space-around;
+}
 .communaute{
     text-align: center;
+    padding-top: 2rem;
+    background-image:url("cypher.png");
+    background: transparent;
+    
 }
 .community{
     display: flex;
     flex-direction: column;
-    font-size: 50px;
     font-weight: bold;
+    border: transparent;
+    width: 18rem;
+    height: 8rem;
+    align-content: center;
+    padding: 1rem;
+    background: #0A0E27;
+    border-radius: 10px;
+    
+}
+.community h5{
+    font-size: 50px;
+    background:  linear-gradient(111.01deg, #00FFFF 0%, #FF00FF 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    background-clip: text;
+
+}
+
+.community-span{
+    font-size: 20px;
+    color: var(--text-primary);
+    margin-top: 10px;
+    
+}
+.cards-comunity2 h4{
+    margin-top: 3rem;
+    color: var(--text-primary);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 3rem;    
+    
+}
+.review-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.review{
+    color: var(--text-primary);
+}
+.player-name{
+    text-align: left;
+    color: #00bbff;
+    font-weight: bold;
+}
+.son-jeu{
+    text-align: left;
+}
+.review-card{
     border: solid;
+    width: 25rem;
+    height: 14rem;
+    border-width: 1px;
+    border-color: #00bbff2f;
+    background-color: #0a0e277c;
+    border-radius: 15px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.review-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.Recrutez{
+    color: #000000;
+    background: linear-gradient(90deg, #00bbff, #163f86);
+    width: 16rem;
+    border-color: transparent;
+    border-width: 0;
+    height: 4rem;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;  
+    cursor: pointer;
+    box-shadow: 0 0 15px #34b4e3;
+    margin-right: 20px;
+    text-decoration: none;  
+    margin-top: 5rem;  
+}
+.annonce-input{
+    text-align: center;
+    margin-top: 5rem;
+}
+.annonce{
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+.formulaire-annonce{
+    width: 40rem;
+    height: 40rem;
+    border: solid 1px #00bbff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    margin-left: 27rem;
+    background: #0a0e276b;
+    padding: 3rem;
+    border-radius: 40px;
+    margin-bottom: 1rem;
+    backdrop-filter: blur(30px);
+    margin-top: -4rem;
+}
+.formulaire-annonce label{
+    color: white;
+    font-weight: bold;
+}
+.ecrire-annonce{
     width: 20rem;
     height: 3rem;
+    border-radius: 20px;
+    border: solid 1px #00bbff;
+    background: #0A0E27;
+    color: var(--text-primary);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 2px;
 }
-.community-span{
-    font-size: 24px;
+.ecrire-description{
+    width: 35rem;
+    height: 20rem;
+    border-radius: 40px;
+    border: solid 1px #00bbff;
+    background: #0A0E27;
+    color: var(--text-primary);
+    padding: 2rem;
+    
+}
+.publie{
+        color: #000000;
+    background: linear-gradient(90deg, #00bbff, #163f86);
+    width: 16rem;
+    border-color: transparent;
+    border-width: 0;
+    height: 4rem;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;  
+    cursor: pointer;
+    box-shadow: 0 0 15px #34b4e3;
+    margin-right: 20px;
+    text-decoration: none;   
 }
