@@ -15,7 +15,7 @@
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(67deg,  #09263f, #34072f);
+    background: linear-gradient(80deg,  #042441, #34032e);
 }
 .body{
     background-image: url("cypher.png");
@@ -32,7 +32,7 @@ header{
         -webkit-backdrop-filter: blur(15px);
         backdrop-filter: blur(15px);
         position: sticky;
-        }
+    }
  nav {
     max-width: 1400px;
     margin: 0 auto;
@@ -48,7 +48,7 @@ header{
 }
 .gg{
     color: #00bbff;
-}
+} 
 .nav-links{
     list-style: none;
     display: flex;
@@ -74,12 +74,14 @@ header{
     position: sticky;
     background: linear-gradient( to bottom, var(--dark-bg), var(--text-secondary));
     padding: 1rem 2rem;
-    margin-top:20rem;
+    margin-top:10rem;
     border-top: 1px solid var(--card-bg);
     display: flex;
     justify-content: space-around;
     width: 100%;
     position: sticky;
+    flex-wrap: wrap;
+    height: 20rem;
     
 }
 .logo-footer{
@@ -525,4 +527,17 @@ p{
 }
 #annonce-shortcut:hover{
     text-decoration: underline;
+}
+
+    .footerline{
+        margin-top: 3rem;
+    }
+
+.cpr{
+    margin-top: 2rem;
+    font-size: 16px;
+}
+.links{
+    display: flex;
+    gap: 10px;
 }
