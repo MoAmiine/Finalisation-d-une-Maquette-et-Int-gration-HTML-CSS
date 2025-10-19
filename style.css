@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "inter", sans-serif;
    
 }
 :root {
@@ -14,8 +15,8 @@
 
 }
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(80deg,  #042441, #34032e);
+   
+    background: linear-gradient(80deg, var(--primary-color) 0%, var(--dark-bg) 50%, var(--secondary-color) 100%);
 }
 .body{
     background-image: url("cypher.png");
@@ -166,6 +167,7 @@ a{
     background: var(--dark-bg);
     height: 25rem;
     border-radius: 20px;
+    box-shadow: 0 0 15px black;
     
 }
 .recherche-title{
@@ -278,6 +280,7 @@ p{
     text-align: center;
     line-height: 2rem;
     margin: 2rem;
+    box-shadow: 0 0 10px black;
     
 }
 .joueurs-title{
@@ -367,6 +370,7 @@ p{
     padding: 1rem;
     background: #0A0E27;
     border-radius: 10px;
+    box-shadow: 0 0 10px black;
     
 }
 .community h5{
@@ -421,6 +425,7 @@ p{
     text-align: center;
     line-height: 2rem;
     margin-bottom: 2rem;
+    box-shadow: 0 0 10px black;
 }
 .review-cards{
     display: flex;
@@ -453,7 +458,7 @@ p{
     border-radius: 20px;
     background-color: #0a0e2770;
     backdrop-filter: blur(15px);
-    box-shadow: 0 0 10px #00bbff;
+    box-shadow: 0 0 10px black;
 }
 .annonce{
     text-align: center;
@@ -520,17 +525,18 @@ p{
 }
 #annonce-shortcut{
     margin: 2rem;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
-    color: #00bbff;
     cursor: pointer;
 }
 #annonce-shortcut:hover{
     text-decoration: underline;
+    color: #00bbff;
 }
 
     .footerline{
         margin-top: 3rem;
+        
     }
 
 .cpr{
@@ -541,3 +547,44 @@ p{
     display: flex;
     gap: 10px;
 }
+#plusdejoueurs{
+    text-align: center;
+}
+#plusdejoueurs hr{
+    margin-left: 44rem;
+
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10rem;
+    background: #0A0E27;
+}
+th{
+    color: #00FFFF;
+    border: 1px solid rgb(46, 46, 46);
+    height: 3rem;
+    box-shadow: 0 0 15px #000000;
+}
+td {
+    border: 1px solid rgb(46, 46, 46);
+    height: 3rem;
+    color: white;
+}
+.moreplayers{
+    
+    color: #ffffff;
+    background: linear-gradient(90deg, #00bbff, #1c60d5);
+    width: 16rem;
+    border-color: transparent;
+    border-width: 0;
+    height: 4rem;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;  
+    cursor: pointer;
+    box-shadow: 0 0 15px #34b4e3;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
